@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "downlevelIteration": true,
+    "useDefineForClassFields": true,
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "types": [
+      "vite/client",
+    ],
+    "paths": {
+      "@mui/styled-engine": [
+        "./node_modules/@mui/styled-engine-sc"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@components/*": [
+        "App/components/*"
+      ],
+    }
+  },
+  "include": [
+    "src",
+    "vite.config.ts"
+  ],
+}
