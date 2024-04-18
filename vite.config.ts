@@ -5,6 +5,7 @@ import checker from "vite-plugin-checker";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  //only for deploy
   base: "/react-resume/",
   plugins: [
     react(),
